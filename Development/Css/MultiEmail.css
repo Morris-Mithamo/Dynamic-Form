@@ -1,0 +1,34 @@
+body
+{
+  font-family:Email;
+}
+.EmailHeaderLabel
+{
+  background-color: #cbe32d;
+}
+#tablebody
+{
+ border-collapse:collapse;
+ width:280px;
+}
+#tablebody thead tr
+{
+  display:block;
+  background-color:#cbe32d;
+  width: 100%;
+}
+#tablebody tbody
+{
+  display:inline-block;
+  overflow: auto;
+  height:100px;
+  width:280px;
+}
+th
+{
+  padding:2px;
+}
+tr:nth-child(even)
+{
+  background-color:#e6e6e8;
+}
